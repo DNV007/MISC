@@ -1,0 +1,7 @@
+ *** generate_hydrogenated_POSCARs.py ***
+Identifies unique atomic site combinations using space group symmetry.
+Utilizes KDTree for efficient nearest-neighbor searching.
+Adds hydrogen atoms at a specified height above selected atoms.
+Saves multiple modified POSCAR files, each representing a different configuration.
+You can modify the script parameters to suit your needs: r = 2 → Number of atoms to select for hydrogenation.
+hydrogen_height = 1.36 → Adjust the height of hydrogen placement above atoms.
